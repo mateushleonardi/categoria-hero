@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Classe do Herói</title>
+</head>
+<body>
+
+    <div class="conteiner">
+        <label>Qual seu Nível de XP:</label>
+        <br>
+        <input type="number" id="resposta" class="input-classe">
+        <br>
+        <button onclick="calcClass()" class="btn-classe">Ver Classe</button>
+        <button onclick="calcClass()" class="btn-class">Cancelar</button>
+    </div>
+
+    <div class="classes">
+        <img src="/img/ferro.png"  id="ferro" style="max-width: 300px; display: none;">
+        <img src="/img/bronze.png" id="bronze" style="max-width: 300px; display: none;">
+        <img src="/img/prata.png" id="prata" style="max-width: 300px; display: none;">        
+        <img src="/img/ouro.png" id="ouro" style="max-width: 300px; display: none;">
+    </div>
+
+    <h2 id="resultado" style="text-align: center;"></h2>
+
+
+<script src="index.js"></script>    
+</body>
+</html>
